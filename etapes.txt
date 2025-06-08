@@ -1,0 +1,16 @@
+
+# 3. Activer
+venv_fruivision_311\Scripts\activate
+
+# 4. Vérifier
+python --version
+
+
+cd C:\Users\Mamad\OneDrive\Teluq\Teluq-computer\INF1402\FruitVision
+venv_fruivision_311\Scripts\activate
+
+# Sauvegarder le script V3
+notepad fruivision_v3.py
+
+# Lancer l'entraînement optimisé
+python fruivision_v3.py

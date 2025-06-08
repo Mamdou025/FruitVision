@@ -1,0 +1,4 @@
+# Kaggle API credentials
+kaggle.json
+*.json
+venv_fruivision_311/
