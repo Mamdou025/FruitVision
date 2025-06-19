@@ -6,7 +6,7 @@ venv_fruivision_311\Scripts\activate
 python --version
 
 
-cd C:\Users\Mamad\OneDrive\Teluq\Teluq-computer\INF1402\FruitVision
+cd C:\Users\Mamad\OneDrive\Teluq\Teluq-computer\INF1402\EduFruis
 venv_fruivision_311\Scripts\activate
 
 

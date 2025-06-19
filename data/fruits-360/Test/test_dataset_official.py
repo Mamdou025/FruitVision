@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Test du modèle FruitVision sur le dataset officiel Fruits-360
+Test du modèle EduFruis sur le dataset officiel Fruits-360
 Objectif: Vérifier les performances sur données du même environnement
 """
 

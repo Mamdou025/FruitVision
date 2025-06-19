@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Interface Streamlit FruitVision V2 - Modèle Perfectionné
+Interface Streamlit EduFruis V2 - Modèle Perfectionné
 Démonstration interactive du modèle corrigé (100% accuracy, 0% biais)
 """
 
@@ -21,7 +21,7 @@ from io import BytesIO
 
 # Configuration de la page
 st.set_page_config(
-    page_title="🚀 FruitVision V2 - Modèle Perfectionné",
+    page_title="🚀 EduFruis V2 - Modèle Perfectionné",
     page_icon="🚀",
     layout="wide",
     initial_sidebar_state="expanded"
@@ -206,7 +206,7 @@ def create_advanced_confidence_chart(probabilities):
     
     fig.update_layout(
         title={
-            'text': "Distribution des Probabilités - FruitVision V2",
+            'text': "Distribution des Probabilités - EduFruis V2",
             'x': 0.5,
             'font': {'size': 20, 'color': '#2c3e50'}
         },
@@ -314,7 +314,7 @@ def main():
     # Header principal avec design moderne
     st.markdown("""
     <div class="main-header">
-        <h1 class="main-title">🚀 FruitVision V2</h1>
+        <h1 class="main-title">🚀 EduFruis V2</h1>
         <p class="main-subtitle">Modèle Perfectionné - 100% Accuracy, 0% Biais</p>
     </div>
     """, unsafe_allow_html=True)

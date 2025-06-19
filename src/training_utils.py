@@ -1,5 +1,5 @@
 """
-FruitVision - Utilitaires d'Entraînement
+EduFruis - Utilitaires d'Entraînement
 ========================================
 
 Ce module contient des fonctions utilitaires pour l'entraînement, l'évaluation et la visualisation
@@ -296,7 +296,7 @@ class GestionnaireEntrainement:
                    xticklabels=noms_classes, yticklabels=noms_classes,
                    square=True, linewidths=0.5)
         
-        plt.title('Matrice de Confusion - FruitVision', fontsize=16, fontweight='bold', pad=20)
+        plt.title('Matrice de Confusion - EduFruis', fontsize=16, fontweight='bold', pad=20)
         plt.xlabel('Prédictions du Modèle', fontsize=12)
         plt.ylabel('Vraies Étiquettes', fontsize=12)
         
@@ -359,7 +359,7 @@ class GestionnaireEntrainement:
         # Ajouter timestamp
         resultats['metadata'] = {
             'date_evaluation': datetime.now().isoformat(),
-            'modele_utilise': 'FruitVision CNN'
+            'modele_utilise': 'EduFruis CNN'
         }
         
         with open(chemin_complet, 'w', encoding='utf-8') as f:
@@ -401,7 +401,7 @@ def afficher_resume_modele(modele, noms_classes: List[str]):
         modele: Modèle Keras
         noms_classes (List[str]): Noms des classes
     """
-    print("🧠 Résumé du Modèle FruitVision")
+    print("🧠 Résumé du Modèle EduFruis")
     print("=" * 50)
     
     # Informations générales

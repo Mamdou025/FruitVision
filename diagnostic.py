@@ -7,7 +7,7 @@ import json
 import os
 import numpy as np
 
-print("🔬 DIAGNOSTIC APPROFONDI - FruitVision")
+print("🔬 DIAGNOSTIC APPROFONDI - EduFruis")
 print("=" * 50)
 
 # 1. VÉRIFIER LES RÉSULTATS D'ENTRAÎNEMENT

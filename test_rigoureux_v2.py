@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Test Rigoureux FruitVision V2
+Test Rigoureux EduFruis V2
 Évaluation complète pour vérifier si le biais "Pomme" est corrigé
 """
 
@@ -267,7 +267,7 @@ class RigorousTestV2:
         plt.figure(figsize=(10, 8))
         sns.heatmap(cm, annot=True, fmt='d', cmap='Blues', 
                    xticklabels=self.classes, yticklabels=self.classes)
-        plt.title('Matrice de Confusion - FruitVision V2', fontsize=16)
+        plt.title('Matrice de Confusion - EduFruis V2', fontsize=16)
         plt.xlabel('Prédictions', fontsize=12)
         plt.ylabel('Vraies Classes', fontsize=12)
         

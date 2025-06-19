@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-FruitVision V2 - Modèle Robuste Amélioré
+EduFruis V2 - Modèle Robuste Amélioré
 Incorporation de toutes les leçons apprises pour créer un modèle plus robuste
 """
 
@@ -25,9 +25,9 @@ import seaborn as sns
 from sklearn.metrics import classification_report, confusion_matrix
 import json
 
-class FruitVisionV2:
+class EduFruisV2:
     def __init__(self):
-        """Initialiser le modèle FruitVision V2"""
+        """Initialiser le modèle EduFruis V2"""
         self.model = None
         self.classes = ['Pomme', 'Banane', 'Kiwi', 'Citron', 'Peche']
         self.num_classes = len(self.classes)
@@ -39,7 +39,7 @@ class FruitVisionV2:
         os.makedirs('logs', exist_ok=True)
         os.makedirs('plots', exist_ok=True)
         
-        print("🍎 FruitVision V2 - Modèle Robuste Initialisé")
+        print("🍎 EduFruis V2 - Modèle Robuste Initialisé")
         print(f"✅ Classes: {self.classes}")
         print(f"✅ Taille d'image: {self.img_size}")
 
@@ -298,7 +298,7 @@ class FruitVisionV2:
         
         # Créer une figure avec subplots
         fig, axes = plt.subplots(2, 2, figsize=(15, 12))
-        fig.suptitle('FruitVision V2 - Historique d\'Entraînement', fontsize=16)
+        fig.suptitle('EduFruis V2 - Historique d\'Entraînement', fontsize=16)
         
         # Accuracy
         axes[0, 0].plot(self.history.history['accuracy'], label='Train Accuracy')
@@ -396,7 +396,7 @@ class FruitVisionV2:
         plt.figure(figsize=(10, 8))
         sns.heatmap(cm, annot=True, fmt='d', cmap='Blues', 
                    xticklabels=class_names, yticklabels=class_names)
-        plt.title('Matrice de Confusion - FruitVision V2')
+        plt.title('Matrice de Confusion - EduFruis V2')
         plt.xlabel('Prédictions')
         plt.ylabel('Vraies Classes')
         
@@ -413,7 +413,7 @@ class FruitVisionV2:
         """Sauvegarder la configuration d'entraînement"""
         
         config = {
-            'model_version': 'FruitVision V2',
+            'model_version': 'EduFruis V2',
             'classes': self.classes,
             'image_size': self.img_size,
             'architecture': 'Advanced CNN with BatchNorm + Dropout + L2',
@@ -432,7 +432,7 @@ class FruitVisionV2:
         print(f"⚙️  Configuration sauvegardée: {config_path}")
 
 def main():
-    """Fonction principale pour entraîner FruitVision V2"""
+    """Fonction principale pour entraîner EduFruis V2"""
     
     print("🍎 FRUIVISION V2 - MODÈLE ROBUSTE")
     print("="*50)
@@ -441,7 +441,7 @@ def main():
     print("")
     
     # Créer l'instance
-    fv2 = FruitVisionV2()
+    fv2 = EduFruisV2()
     
     # Créer le modèle
     fv2.create_robust_model()

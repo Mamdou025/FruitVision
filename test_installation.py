@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Test d'Installation FruitVision
+Test d'Installation EduFruis
 ===============================
 Script pour vérifier que toutes les dépendances sont correctement installées.
 """
@@ -22,7 +22,7 @@ def tester_import(nom_module, nom_affichage=None):
 
 def main():
     """Fonction principale de test."""
-    print("🧪 Test d'Installation FruitVision")
+    print("🧪 Test d'Installation EduFruis")
     print("=" * 50)
     
     # Liste des modules à tester
@@ -55,7 +55,7 @@ def main():
     
     if nb_succes == nb_total:
         print(f"🎉 SUCCÈS! Tous les modules ({nb_succes}/{nb_total}) sont installés!")
-        print("✅ Vous pouvez maintenant exécuter le code FruitVision.")
+        print("✅ Vous pouvez maintenant exécuter le code EduFruis.")
     else:
         print(f"⚠️  {nb_succes}/{nb_total} modules installés correctement.")
         print("❌ Veuillez installer les modules manquants avant de continuer.")

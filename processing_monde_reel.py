@@ -1,5 +1,5 @@
 """
-FruitVision - Preprocessing pour Images du Monde Réel
+EduFruis - Preprocessing pour Images du Monde Réel
 ====================================================
 
 Module spécialisé pour traiter les images uploadées par les utilisateurs:
