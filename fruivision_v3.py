@@ -26,6 +26,7 @@ import seaborn as sns
 from sklearn.metrics import classification_report, confusion_matrix
 import json
 
+
 class FruitVisionV3Fixed:
     def __init__(self):
         """Initialiser FruitVision V3 avec correction du mapping"""

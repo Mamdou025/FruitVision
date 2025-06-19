@@ -9,8 +9,9 @@ python --version
 cd C:\Users\Mamad\OneDrive\Teluq\Teluq-computer\INF1402\FruitVision
 venv_fruivision_311\Scripts\activate
 
+
 # Sauvegarder le script V3
 notepad fruivision_v3.py
 
-# Lancer l'entraînement optimisé
+# Lancer l'entraînement optimisé pour3 
 python fruivision_v3.py
