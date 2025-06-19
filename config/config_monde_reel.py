@@ -146,7 +146,7 @@ CONFIG_TEST_MONDE_REEL = {
 # Configuration de l'application Streamlit
 CONFIG_APPLICATION = {
     # Interface utilisateur
-    'titre': 'FruitVision - IA de Reconnaissance de Fruits',
+    'titre': 'EduFruis - IA de Reconnaissance de Fruits',
     'description': 'Uploadez votre photo et laissez l\'IA reconnaître le fruit!',
     
     # Limitations d'upload

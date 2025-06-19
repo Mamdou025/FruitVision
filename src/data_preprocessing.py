@@ -1,5 +1,5 @@
 """
-FruitVision - Prétraitement des Données
+EduFruis - Prétraitement des Données
 =======================================
 
 Ce module gère le chargement, le prétraitement et l'augmentation des données d'images de fruits.

@@ -1,5 +1,5 @@
 """
-FruitVision - Application Streamlit
+EduFruis - Application Streamlit
 ===================================
 
 Interface web pour la reconnaissance de fruits par IA
@@ -25,7 +25,7 @@ import base64
 
 # Configuration de la page
 st.set_page_config(
-    page_title="🍎 FruitVision - Reconnaissance de Fruits par IA",
+    page_title="🍎 EduFruis - Reconnaissance de Fruits par IA",
     page_icon="🍎",
     layout="wide",
     initial_sidebar_state="expanded"
@@ -107,7 +107,7 @@ def charger_modele():
         model_path = 'models/fruivision_equilibre.h5'
         model = tf.keras.models.load_model(model_path)
         model_info = {
-            'nom': 'FruitVision Équilibré',
+            'nom': 'EduFruis Équilibré',
             'precision': '70-85% (honnête)',
             'images_entrainement': '1,000 (200 par fruit)',
             'epoques': 'Early stopping intelligent',
@@ -121,7 +121,7 @@ def charger_modele():
             model_path = 'models/fruivision_sans_augmentation.h5'
             model = tf.keras.models.load_model(model_path)
             model_info = {
-                'nom': 'FruitVision Sans Augmentation',
+                'nom': 'EduFruis Sans Augmentation',
                 'precision': '~99% (mais déséquilibré)',
                 'images_entrainement': '4,987 (déséquilibré)',
                 'epoques': 'Early stopping à 19',
@@ -135,7 +135,7 @@ def charger_modele():
                 model_path = 'models/fruivision_robuste_1h.h5'
                 model = tf.keras.models.load_model(model_path)
                 model_info = {
-                    'nom': 'FruitVision Robuste (DÉFAILLANT)',
+                    'nom': 'EduFruis Robuste (DÉFAILLANT)',
                     'precision': '100% (FAUX - 20% réel)',
                     'images_entrainement': '28,225 (sur-augmenté)',
                     'epoques': '16 (early stopping prématuré)',
@@ -423,7 +423,7 @@ def generer_rapport_json(resultats_session):
         'session_info': {
             'timestamp': datetime.now().isoformat(),
             'nb_predictions': len(resultats_nettoyes),
-            'application': 'FruitVision',
+            'application': 'EduFruis',
             'version': '1.0',
             'auteur': 'Mamadou Fall (22307101)'
         },
@@ -441,7 +441,7 @@ def main():
     """Application principale Streamlit."""
     
     # En-tête principal
-    st.markdown('<h1 class="main-header">🍎 FruitVision</h1>', unsafe_allow_html=True)
+    st.markdown('<h1 class="main-header">🍎 EduFruis</h1>', unsafe_allow_html=True)
     st.markdown('<p class="subtitle">Reconnaissance intelligente de fruits par intelligence artificielle</p>', unsafe_allow_html=True)
     
     # Chargement du modèle
@@ -670,7 +670,7 @@ def main():
     st.markdown("---")
     st.markdown("""
     <div style="text-align: center; color: #666; padding: 2rem 0;">
-        <p><strong>FruitVision v2.0</strong> - Développé par Mamadou Fall (22307101)</p>
+        <p><strong>EduFruis v2.0</strong> - Développé par Mamadou Fall (22307101)</p>
         <p>Cours INF1402 - Apprentissage automatique | 2025</p>
         <p>🔬 Projet avec analyse critique des performances ML</p>
         <details>

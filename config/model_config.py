@@ -1,8 +1,8 @@
 """
-FruitVision - Configuration du Modèle
+EduFruis - Configuration du Modèle
 =====================================
 
-Ce fichier contient toutes les configurations et hyperparamètres pour le projet FruitVision.
+Ce fichier contient toutes les configurations et hyperparamètres pour le projet EduFruis.
 Centraliser la configuration facilite les expérimentations et la reproductibilité.
 
 Auteur: Mamadou Fall
@@ -182,7 +182,7 @@ CONFIG_SAUVEGARDE = {
 # ============================================================================
 
 CONFIG_APP = {
-    'titre': 'FruitVision - Reconnaissance de Fruits par IA',
+    'titre': 'EduFruis - Reconnaissance de Fruits par IA',
     'description': 'Téléversez une image de fruit et laissez l\'IA le reconnaître!',
     'auteur': 'Mamadou Fall',
     
@@ -236,7 +236,7 @@ def creer_dossiers():
 
 def afficher_config():
     """Afficher un résumé de la configuration actuelle."""
-    print("⚙️ Configuration FruitVision")
+    print("⚙️ Configuration EduFruis")
     print("=" * 50)
     print(f"🍎 Nombre de classes: {NOMBRE_CLASSES}")
     print(f"📐 Taille des images: {TAILLE_IMAGE}")
@@ -323,7 +323,7 @@ if __name__ == "__main__":
     """
     Code de test pour vérifier la configuration.
     """
-    print("🧪 Test de la Configuration FruitVision")
+    print("🧪 Test de la Configuration EduFruis")
     print("=" * 50)
     
     # Afficher la configuration

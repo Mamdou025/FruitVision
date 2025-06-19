@@ -1,5 +1,5 @@
 """
-Test Rapide FruitVision - Version Corrigée
+Test Rapide EduFruis - Version Corrigée
 ==========================================
 Version simplifiée qui évite l'erreur top_2_accuracy
 """
@@ -16,7 +16,7 @@ sys.path.append('src')
 from data_preprocessing import PreprocesseurDonnees
 
 def test_rapide_corrige():
-    print("🧪 Test d'Entraînement Rapide FruitVision - Version Corrigée")
+    print("🧪 Test d'Entraînement Rapide EduFruis - Version Corrigée")
     print("=" * 60)
     
     # Classes réelles du dataset
