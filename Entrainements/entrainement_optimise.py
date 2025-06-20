@@ -1,5 +1,5 @@
 """
-FruitVision - Entraînement Optimisé
+Edufruits - Entraînement Optimisé
 ===================================
 
 Version optimisée pour un entraînement réaliste en 1-2 heures.

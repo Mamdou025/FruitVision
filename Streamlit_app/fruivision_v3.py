@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-FruitVision V3 - Correction du Mapping de Classes
+Edufruits V3 - Correction du Mapping de Classes
 Solution: Créer un dossier unifié par classe avant l'entraînement
 """
 
@@ -27,9 +27,9 @@ from sklearn.metrics import classification_report, confusion_matrix
 import json
 
 
-class FruitVisionV3Fixed:
+class EdufruitsV3Fixed:
     def __init__(self):
-        """Initialiser FruitVision V3 avec correction du mapping"""
+        """Initialiser Edufruits V3 avec correction du mapping"""
         self.classes = ['Pomme', 'Banane', 'Tomate', 'Concombre', 'Citron']
         self.num_classes = len(self.classes)
         self.img_size = (100, 100)
@@ -75,7 +75,7 @@ class FruitVisionV3Fixed:
         os.makedirs('data_v3/Training', exist_ok=True)
         os.makedirs('data_v3/Test', exist_ok=True)
         
-        print("🚀 FruitVision V3 Fixed - Mapping Corrigé")
+        print("🚀 Edufruits V3 Fixed - Mapping Corrigé")
         print(f"✅ Classes finales: {self.classes}")
 
     def create_unified_dataset_v3(self, source_dir="data/fruits-360", target_dir="data_v3"):
@@ -374,7 +374,7 @@ class FruitVisionV3Fixed:
             return
         
         fig, axes = plt.subplots(2, 2, figsize=(15, 10))
-        fig.suptitle('FruitVision V3 - Classes Unifiées', fontsize=16)
+        fig.suptitle('Edufruits V3 - Classes Unifiées', fontsize=16)
         
         # Accuracy
         axes[0, 0].plot(self.history.history['accuracy'], label='Train')
@@ -418,7 +418,7 @@ def main():
     print("✨ Classes: Pomme, Banane, Tomate, Concombre, Citron")
     
     # Instance V3
-    fv3 = FruitVisionV3Fixed()
+    fv3 = EdufruitsV3Fixed()
     
     # Créer le dataset unifié
     print("\n📁 Création du dataset unifié...")
