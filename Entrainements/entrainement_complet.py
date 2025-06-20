@@ -1,5 +1,5 @@
 """
-FruitVision - Entraînement Complet
+Edufruits - Entraînement Complet
 ==================================
 
 Script pour entraîner le modèle final de production avec toutes les données.
@@ -512,7 +512,7 @@ if __name__ == "__main__":
     if success:
         print("\n" + "=" * 70)
         print("🎉 ENTRAÎNEMENT COMPLET RÉUSSI!")
-        print("🚀 Votre modèle FruitVision est prêt pour la production!")
+        print("🚀 Votre modèle Edufruits est prêt pour la production!")
     else:
         print("\n" + "=" * 70)
         print("❌ ENTRAÎNEMENT INTERROMPU OU ÉCHOUÉ")

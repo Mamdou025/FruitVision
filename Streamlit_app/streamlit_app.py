@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Interface Streamlit pour FruitVision
+Interface Streamlit pour Edufruits
 Démonstration visuelle du modèle sur le dataset Fruits-360
 """
 
@@ -19,7 +19,7 @@ from datetime import datetime
 
 # Configuration de la page
 st.set_page_config(
-    page_title="🍎 FruitVision - Démonstration",
+    page_title="🍎 Edufruits - Démonstration",
     page_icon="🍎",
     layout="wide",
     initial_sidebar_state="expanded"
@@ -162,7 +162,7 @@ def main():
     """Interface principale Streamlit"""
     
     # Header principal
-    st.markdown('<h1 class="main-header">🍎 FruitVision - Démonstration Interactive</h1>', unsafe_allow_html=True)
+    st.markdown('<h1 class="main-header">🍎 Edufruits - Démonstration Interactive</h1>', unsafe_allow_html=True)
     
     # Sidebar
     st.sidebar.markdown("## 🎛️ Contrôles")
